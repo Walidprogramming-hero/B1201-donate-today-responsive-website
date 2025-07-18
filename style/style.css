@@ -19,6 +19,15 @@
   box-sizing: border-box;
 }
 /* shared styling starts */
+.all{
+  margin: 0 auto;
+  max-width: 698px;
+  text-align: center;
+}
+.continer{
+  max-width: 1140px;
+  margin: 0 auto 120px auto;
+}
 .display-fles{
     display: flex;
 }
@@ -32,10 +41,6 @@
     cursor: pointer;
     margin-right: 10px;
     position: relative;
-}
-.all{
-  max-width: 1250px;
-  margin: 0 auto 120px auto;
 }
 /* darl-1 color */
 .dark-1{
@@ -98,3 +103,40 @@
   width: 100%;
 }
 /* banner-continer styling ends */
+/* donate continer styling starts */
+.donate-tittle{
+  font-size: 3rem;
+}
+.donate *{
+  margin-bottom: 20px;
+}
+.donate-description{
+  max-width: 765px;
+  margin: 50px auto 20px auto;
+  text-align: center;
+}
+.donate-card{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+.card{
+  width: 135px;
+  height: 123px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+#card{
+  border: 2px solid #FF5959;
+  background-color: #FFEEEE;
+  color: #FF5959;
+}
+.other *{
+  margin-bottom: 15px;
+}
+hr{
+  border: 0.1px solid #DADADA;
+}
+/* donate continer styling ends */
