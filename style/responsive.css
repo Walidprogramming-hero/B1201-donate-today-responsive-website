@@ -13,12 +13,21 @@
     grid-template-columns: repeat(1,1fr);
     justify-items: center;
 }
+.our-donate{
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+}
 }
 /* medium device styling */
 @media screen and (min-width:576px) and (max-width:992px) {
     .donate-card{
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
+}
+.our-donate{
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+   
 }
     
 }
