@@ -165,3 +165,25 @@ hr{
   margin-bottom: 20px;
 }
 /* donate plan session ends */
+/* home lession session starts */
+.home{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.home-content{
+  max-width: 482px;
+}
+.home-img{
+  max-width: 482px;
+}
+.home-tittle{
+  font-size: 3rem;
+}
+.home-content *{
+  margin-bottom: 20px;
+}
+.home-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* home lwssion session ends */
