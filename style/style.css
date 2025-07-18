@@ -187,3 +187,23 @@ hr{
     border-radius: 5px;
 }
 /* home lwssion session ends */
+
+.footer-content{
+  margin-bottom: 80px;
+}
+.footer-tittle{
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+.submenu{
+  padding: 50px;
+  max-width: 991px;
+}
+.dd{
+  padding: 12px;
+  border: transparent;
+ 
+}
+.ee{
+ 
+}

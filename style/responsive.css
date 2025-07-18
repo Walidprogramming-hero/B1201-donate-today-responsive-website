@@ -21,6 +21,9 @@
   grid-template-columns: repeat(1,1fr);
   justify-items: center;
 }
+.footer-session{
+    text-align: center;
+}
 
 }
 /* medium device styling */
